@@ -1,0 +1,15 @@
+# Environment & Secrets
+.env
+*.log
+error_log
+
+# Uploads (Keep folder & security config, ignore actual user uploads)
+uploads/*
+!uploads/.htaccess
+!uploads/.gitkeep
+
+# Sessions & Temporary files
+sessions/
+.DS_Store
+Thumbs.db
+*.zip
